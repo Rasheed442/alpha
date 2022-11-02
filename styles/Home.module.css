@@ -1,0 +1,40 @@
+.container{
+    background-image: url("/car.webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.384);
+    height: 100%;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+    color: white;
+    gap: 40px;
+}
+.main button{
+    background-color:cornflowerblue;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    width: 20rem;
+    border: 1px solid cornflowerblue;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.main h1 {
+    font-size: 60px;
+}
+.main h2 {
+    font-size: 35px;
+}
+.main h4 {
+    font-size: 30px;
+}

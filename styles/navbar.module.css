@@ -1,0 +1,129 @@
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+  }
+  .container h1{
+    color:cornflowerblue;
+  }
+  .container button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+.navlink{
+    display: flex;
+    gap: 40px;
+}
+.icon{
+    font-size: 30px;
+    display: none;
+}
+.navmenu{
+    display: none;
+}
+.navlink p{
+    color: black;
+}
+.service{
+    position: absolute;
+    background-color: black;
+    left: 28rem;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 30px;
+    top: 3rem;
+    padding: 30px;
+}
+.service p{
+    color: white;
+    font-size: 18px;
+}
+.service p:hover{
+    border-bottom:  1px solid aqua;   
+     transition: 0.5s;
+    cursor: pointer;
+}
+.fleet{
+    position: absolute;
+    background-color: black;
+    color: white;
+    left: 34rem;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 30px;
+    top: 3rem;
+    padding: 30px;
+}
+.fleet p{
+    font-size: 18px;
+    color: white;
+}
+.fleet p:hover{
+    border-bottom:  1px solid aqua;   
+     transition: 0.5s;
+    cursor: pointer;
+}
+.about{
+    position: absolute;
+    background-color: black;
+    left: 47rem;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 30px;
+    top: 3rem;
+    padding: 30px;
+}
+.about p{
+    font-size: 18px;
+    color: white;
+}
+.about p:hover{
+    border-bottom:  1px solid aqua;   
+     transition: 0.5s;
+    cursor: pointer;
+}
+
+@media screen and (orientation:portrait) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  .icon{
+    display: block;
+    cursor: pointer;
+  }
+  .navlink{
+    display: none;
+  }
+  .navmenu{
+    display: block;
+    position: absolute;
+    top: 5rem;
+    background-color: cornflowerblue;
+    left: 0;
+    height: 100%;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .navmenu p{
+    color: white;
+    font-size: 25px;
+  }
+  .container button{
+    display: none;
+  }
+    
+}
