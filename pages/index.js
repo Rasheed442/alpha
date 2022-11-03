@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react'
 import Navbar from '../component/Navbar'
+import Service from '../component/Service'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -118,7 +119,7 @@ export default function Home() {
         </div>
 </div>:""}
 
-
+  <Service/>
      
     </div>
   )
