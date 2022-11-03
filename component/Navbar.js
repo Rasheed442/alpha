@@ -43,7 +43,7 @@ function Navbar() {
              <Link href="/"><p>Get Help </p></Link>
           </div>
 {/* navmenu for the app */}
-          {icon ?<div className={style.navmenu}>
+          {icon ?<div className={style.navmenu} data-aos="fade-right">
                <Link href='/'><p>Customers</p></Link>
                <Link href='/'><p>Pricing</p></Link>
                <Link href='/'><p>Fleet</p></Link>

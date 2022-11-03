@@ -38,3 +38,117 @@
 .main h4 {
     font-size: 30px;
 }
+.cot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px
+;}
+.love{
+    display: flex;
+     
+}
+.love1{
+    padding: 15px;
+    border-top-left-radius: 40%;
+    border-end-start-radius: 40%;
+    width: 160px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    background-color: aqua;
+    border: 1px solid gainsboro;
+}
+.love2{
+    padding: 15px;
+    border-top-right-radius: 40%;
+    border-end-end-radius:40% ;
+    width: 160px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    background-color: gainsboro ;
+    color: white;
+    border: 1px solid  gainsboro;
+}
+.board{
+    padding: 5rem;
+    padding-left: 2rem;
+    display: flex;
+    gap: 20px;
+}
+.firstboard{
+    background-repeat: no-repeat;
+    height: 20rem;
+    color: white;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: gray;
+    border-radius: 30px;
+}
+
+.overboard{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.overboard p{
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.secondboard{
+    background-repeat: no-repeat;
+    height: 20rem;
+    color: white;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color:rgb(46, 46, 73);
+    border-radius: 30px;
+
+}
+.thirdboard{
+    background-repeat: no-repeat;
+    height: 20rem;
+    color: white;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: aqua;
+    border-radius: 30px;
+
+}
+@media screen and (orientation:portrait) {
+    .container{
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .board{
+        flex-direction: column;
+        padding-left: 8px;
+    }
+    .main h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .main h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .main h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+}
