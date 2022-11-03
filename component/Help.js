@@ -6,7 +6,7 @@ function Help() {
     <>
     <h1 style={{color:"rgb(46, 46, 73)", fontSize:"40px", textAlign:"center", padding:"20px"}}>We help you save</h1>
     <div className={style.container}>
-        <div>
+        <div className={style.image}>
            <Image
            src="/pip1.png"
            width={800}
@@ -26,7 +26,7 @@ function Help() {
             <h2>Save money</h2>
             <h4>Our competitive pricing, alongside our mobile approach, aims to save each of our customers money.</h4>
         </div>
-        <div>
+        <div className={style.image}>
            <Image
            src="/pip2.png"
            width={800}
@@ -35,7 +35,7 @@ function Help() {
     </div>
 
     <div className={style.container2}>
-    <div>
+    <div className={style.image}>
            <Image
            src="/pip3.png"
            width={800}

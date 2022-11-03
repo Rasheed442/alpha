@@ -136,7 +136,8 @@
     }
     .board{
         flex-direction: column;
-        padding-left: 8px;
+       padding-left: 10px;
+    
     }
     .main h1 {
         font-size: 40px;
@@ -149,9 +150,6 @@
     .main h4 {
         font-size: 30px;
         text-align: center;
-    }
-    .board{
-        padding-left: 40px;
     }
     
 }

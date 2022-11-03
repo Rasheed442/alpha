@@ -12,7 +12,7 @@ function Footer() {
                   <p>number:#11018311</p>
                   <p>VAT:GB3314151666</p>
               </div>
-              <hr/>
+
               <div className={style.main}>
                 <h4>About</h4>
                 <p>Sustainability</p>
@@ -22,7 +22,7 @@ function Footer() {
                 <p>Gift Cards</p>
                 <p>Refer a friend</p>
               </div>
-              <hr/>
+              
               <div className={style.main}>
                 <h4>Services</h4>
                 <p>Fleet Washing</p>
@@ -35,17 +35,17 @@ function Footer() {
                 <p>Servicing & Repairs</p>
                 <p>FAQ</p>
               </div>
-              <hr/>
+              
               <div className={style.main}>
                 <h4>Legal</h4>
                 <p>Terms and Conditions</p>
                 <p>Privacy and policy</p>
                 <p>Cookie Policy</p>
               </div>
-              <hr/>
+              
               <div className={style.main}>
                 <h4>Sign up to our newsletter</h4>
-                <div>
+                <div className={style.up}>
                     <input type='/'/>
                     <button>SUBSCRIBE</button>
                 </div>
