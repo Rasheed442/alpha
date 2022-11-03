@@ -22,7 +22,7 @@ function Help() {
 
     <div className={style.container1}>
         <div className={style.main1}>
-            <p>01</p>
+            <p>02</p>
             <h2>Save money</h2>
             <h4>Our competitive pricing, alongside our mobile approach, aims to save each of our customers money.</h4>
         </div>
@@ -42,7 +42,7 @@ function Help() {
            height={500}/>
         </div>
         <div className={style.main2}>
-            <p>01</p>
+            <p>03</p>
             <h2>Save money</h2>
             <h4>Hours of your precious time are wasted driving and queuing at your local car
                  wash or garage. It's time to value your time.</h4>

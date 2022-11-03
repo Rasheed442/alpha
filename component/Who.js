@@ -34,7 +34,7 @@ function Who() {
                       priority
                       width={100}
                       height={100}
-                      src="/Artboard3.png"/>
+                      src="/artboard3.png"/>
                    </div>
                     <h1>Sustainable</h1>
                     <h4>Saving over 150 litres of water</h4>
