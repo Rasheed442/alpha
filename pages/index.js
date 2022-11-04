@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react'
 import Navbar from '../component/Navbar'
+import Link from 'next/link'
 import Service from '../component/Service'
 import styles from '../styles/Home.module.css'
 
@@ -24,7 +25,7 @@ export default function Home() {
                   <h1>Your one stop shop for vehicle care</h1>
                   <h2>High quality, convenient and sustainable car care, all through one app</h2>
                   <h4>Mobile Body Repair - Mobile Valet - Mobile Mechanics</h4>
-                  <button>Book now</button>
+                  <Link href='  signin'><button>Book now</button></Link>
                 </div>
 
           </div>

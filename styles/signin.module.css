@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+}
+.head{
+    padding: 5rem;
+    display: flex;
+    gap: 20rem;
+}
+.main{
+    display: flex;
+    padding-left: 5rem;
+    gap: 150px;
+}
+.main h1{
+    font-size: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content button{
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content input{
+    padding: 10px;
+    font-size: 20px;
+    width: 23rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gainsboro;
+}
+.content p{
+    text-align: end;
+}
+
+
+@media screen and (orientation:portrait) {
+    .image{
+        display: none;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .content p{
+        text-align: start;
+    }
+    .content button{
+        width: 23rem;
+    }
+    .head{
+        gap: 48px;
+        padding: 20px;
+    }
+    .main{
+        display: flex;
+        padding-left: 20px;
+        padding-top: 50px;
+        gap: 150px;
+    }
+}
